@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(20, 20, 131);
+}
+.card-container {
+    margin: 10%;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    background-color: rgb(15, 15, 87);
+    color: white;
+    border-radius: 20px;
+  }
+  .card1 .up1 ,.down1{
+    margin-top: 30px;
+  }
+ span{
+    float: right;
+ }
+  .details {
+    padding: 20px;
+    gap: 3em;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    grid-template-rows: repeat(2, auto);
+    margin: 10px;
+  }
+.card1{
+    grid-row: 1;
+    margin: 10px;
+    padding: 10px;
+}
+h1{
+    font-weight: 100;
+}
+ul{
+    list-style: none;
+    
+}
+.activity {
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    padding-top: 10px;
+    
+  }
